@@ -1,12 +1,41 @@
+.pricing {
+    padding: 120px 0;
+}
 .pricing__title{
     font-family: sans-serif;
     font-size: 24px;
     color: var(--textheiding);
     text-align: center;
+    padding-bottom: 36px;
 }
-.shoes_wrapper{
-    display: grid;
-}
+
 .card_shoes>img{
 max-height: 400px;
+}
+
+@media (min-width:800px) {
+    .shoes_wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:10px;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .shoes_wrapper{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+h3{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: var(--textheiding);
+    text-align: left;
+    padding-bottom: 8px;
+}
+.price{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: var(--texttitle)
 }

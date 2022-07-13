@@ -1,13 +1,23 @@
 
 .header {
     padding: 5px;
-}
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top:0
 
+}
+/* .nav-bar-wrapper{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: aliceblue;
+} */
 .nav-bar__logo {
     display: flex;
 }
 .nike_logo {
-    /* max-width: 50px; */
+    max-width: 140px;
     max-height: 50px;
     width: 100%;
     height: 100%;
@@ -39,7 +49,7 @@
         flex-direction: row;
         justify-content: space-around;
         flex: 1;
-        padding-top: 16px;
+        align-items: center;
     }
 }
 
@@ -53,6 +63,7 @@
     justify-content: space-around;
     flex-direction: column;
     padding-top: 20px;
+    margin-top: 74px;
 }
 h1{
     color:black;
