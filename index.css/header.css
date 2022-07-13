@@ -1,0 +1,75 @@
+
+.header {
+    padding: 5px;
+}
+
+.nav-bar__logo {
+    display: flex;
+}
+.nike_logo {
+    /* max-width: 50px; */
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+    
+}
+.header_logo-title {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: var(--textheiding);
+}
+.nav-bar__menu {
+    display: flex;
+    flex-direction: column;
+    font-family:sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.nav-bar_link {
+    text-decoration: none;
+    color: var(--textheiding);
+}
+
+
+@media (min-width: 500px) {
+    .header> .container {
+       display: flex;
+    }
+    .nav-bar__menu {
+        flex-direction: row;
+        justify-content: space-around;
+        flex: 1;
+        padding-top: 16px;
+    }
+}
+
+.header-banner {
+    background-image: url(../img/border_image.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 20px;
+}
+h1{
+    color:black;
+    font-size: 54px;
+    text-shadow: 2px 2px #184e94; 
+}
+.email_form {
+    border: 1px solid #17495d;
+    height: 30px;
+    width: 200px;
+
+}
+.batton {
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color:var(--textheiding);
+    font-family: Haid sans-serif;
+   
+}

@@ -1,0 +1,12 @@
+.pricing__title{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: var(--textheiding);
+    text-align: center;
+}
+.shoes_wrapper{
+    display: grid;
+}
+.card_shoes>img{
+max-height: 400px;
+}

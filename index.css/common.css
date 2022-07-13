@@ -1,0 +1,18 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --textheiding: rgb(17,17,17);
+    --texttitle: rgb(117, 117, 117);
+  
+
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
